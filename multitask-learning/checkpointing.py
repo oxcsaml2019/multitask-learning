@@ -7,6 +7,7 @@ from torch.optim import Optimizer
 
 from model import MultitaskLearner
 
+# Server disabled, credentials useless.
 server_name = 'mongodb://multitask-learning:cRMEj4j5477BRytQVrvHFEZMyR4wFV@134.209.21.201/admin?retryWrites=true'
 collection_name = 'multitask-learning'
 

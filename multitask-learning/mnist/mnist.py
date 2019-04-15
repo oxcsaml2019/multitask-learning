@@ -22,6 +22,7 @@ config_updates, _ = get_config_updates(sys.argv)
 
 # Disable saving to mongo using "with save_to_db=False"
 if ("save_to_db" not in config_updates) or config_updates["save_to_db"]:
+    # Server disabled, credentials useless.
     mongo_observer = MongoObserver.create(
         url='mongodb://multitask-learning:cRMEj4j5477BRytQVrvHFEZMyR4wFV@134.209.21.201/admin?retryWrites=true',
         db_name='multitask-learning')
