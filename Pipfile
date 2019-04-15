@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+numpy = "*"
+torch = "*"
+cityscapesscripts = "*"
+pillow = "*"
+sacred = "*"
+jupyter = "*"
+torchvision = "*"
+scipy = "*"
+tqdm = "*"
+pymongo = "*"
+dnspython = "*"
+bokeh = "*"
+notebook = "*"
+# Use dev version of sklearn to get OPTICS.
+scikit-learn = "*"
+psutil = "*"
+gitpython = "*"
+incense = "*"
+
+[dev-packages]
+pylint = "*"
